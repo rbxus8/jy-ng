@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    min-width: 90vh;
+}
+
+/*PIE DE CABEZA */
+#block{
+    background-color: #000000d7;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 4;
+}
+#block h1{
+    margin: 20%;
+}
+#block h1 span{
+    color: #99359c ;
+}
+
+.rosey{
+    color: rgb(248, 248, 248);
+    position: absolute;
+    
+}
+/*PIE DE CABEZA */
+
+
+/*BLOQUE UNO*/
+#block1{
+    background-image: url(icono/giphy.webp);
+    background-size: 45%;
+    height: 110.5vh;
+    min-height:1000px ;
+    width: 100%;
+
+
+}
+
+
+.bloques{
+    z-index: 2;
+    background-color: #feffffb6;
+    height: 650px;
+    width: 450px;
+    border-radius: 50px;
+    border-radius: 40px;
+    border: 10px;
+    border-color: #000000;
+    border-style: groove;
+    margin: 7% 0%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.bloques h1{
+    color: #050505;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 5px;
+font-stretch: semi-expanded;
+}
+.bloques h2{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    font-stretch: semi-expanded;
+    color: #050404;
+    font-size: 20px;
+
+}
+
+.foto{
+    background-image:url(img/io.jpg) ;
+    background-size: 100% 100%;
+    height: 40%;
+    width: 60%;
+    border: 30%;
+    border-style: groove;
+    border-color: rgb(3, 3, 3);
+    border-radius: 50%;
+    margin: 5% 20%;
+
+}
+.descripcion{
+position: absolute;
+}
+
+.links a{
+    display: inline-block;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    padding: 25px;
+    height: 100%;
+    margin-top: 250px;
+}
+.wasa{
+    background-image: url(img/wasa.PNG);
+    width: 1px;
+    height: 1px;
+    background-size: 100%;
+}
+.instagram{
+    background-image: url(img/inta.PNG);
+    width: px;
+    height: 1px;
+    background-size: 100%;
+}
+.papa{
+    background-image: url(img/wasa.PNG);
+    width: 1px;
+    height: 1px;
+    background-size: 100%;
+}
+/*BLOQUE UNO*/
+
+/*BLOQUE UDOS*/
+#block2{
+    background-color: #030303c2;
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+
+}
+
+
+
+.aboutme {
+    margin-top: 6%;
+    text-align: center;
+    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    font-stretch: semi-expanded;  
+    border-style: groove;
+    border-color: #ffffff;
+    border-right-color:rgba(255, 255, 255, 0) ;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.aboutme h2{
+    color: #ffffff;
+    width: 110%;
+
+}
+.aboutmeh3{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+    margin-top: 11%;
+    position: absolute;
+    padding-inline: 0%;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: semi-expanded;
+}
+
+/*BLOQUE UDOS*/
+
+/*BLOQUE TRES*/
+#block3{
+    z-index: -2;
+    background-color: #ffffff;
+    height: 1000vh;
+    width: 100%;
+    position: absolute;
+}
+
+
+.iconos {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    
+}
+
+.iconos button{
+    width: 260px;
+    height: 260px;
+    
+}
+.three,.four{
+    margin-top: 60px;
+}
+
+.iconos img{
+    border: #000000;
+border:12px;
+border-style: double;
+border-radius: 10%;
+}
+.one,.two,.three,.four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.iconos h3{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.iconos h2{
+    margin-top: 100px;
+    margin-right: 40%;
+}
+
+.iconos button{
+    border: 10px;
+    border-color: #000000;
+    border-style: double;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+
+/*BLOQUE TRES*/
+
+
+/*BLOQUE CUATRO*/
+#block4 {
+    height: 60vh;
+    width: 100%;
+    background-image: url(icono/oie_8225726QOi3SnbH.jpg) ;
+    position: absolute;
+    margin-top: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gato{
+    background-image: url(icono/JSb.gif);
+    background-size: 100% 100%;
+}
+
+
+/*BLOQUE CUATRO*/
